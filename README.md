@@ -1,4 +1,4 @@
-# Thinking in react - Github issues filter
+# Thinking in React - Github issues filter
 
 Learning how to build apps in react is an important skill. Specifically, being able to look at a static mockup (or screenshot) and understand how to break it down into components.
 
@@ -68,7 +68,7 @@ For each section in the article, we will try to follow these guidelines. This in
 
 * Add a new issue (with a totally separate form for inputting them)
 * Add open/closed issue status and only display open ones.
-  * You can add these manually in the `apiResponse` file
+  * You can add these manually (and randomly) in the `apiResponse` file
 * Filter should work like the github issues filter now: typing in `is:open` or `is:closed` will filter by status. 
 
 ## Double bonus
@@ -77,4 +77,4 @@ For each section in the article, we will try to follow these guidelines. This in
 
 ## Triple bonus
 
-* Combine multiple filtering methods - `is:open author:myrasmith` should show open issues that myra is the author of.
+* Combine multiple filtering methods. Typing `is:closed author:myrasmith` should show closed issues that myra is the author of.
